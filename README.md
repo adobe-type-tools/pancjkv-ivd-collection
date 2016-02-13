@@ -1,4 +1,4 @@
-# PanCJK IVD Collection
+# PanCJKV IVD Collection
 
 PanCJKV IVD Collection is an experimental and unregistered [IVD](http://www.unicode.org/ivd/) (*Ideographic Variation Database*) collection that assigns eight IVSes (*Ideographic Variation Sequences*), one for each region among CN (PRC), TW (ROC), HK (Hong Kong SAR), MO (Macao SAR), JP (Japan), KR (ROK), KP (DPRK), and VN (Vietnam), to all CJK Unified Ideographs ([80,388 in Unicode Version 8.0](https://blogs.adobe.com/CCJKType/files/2015/07/ideographs-unicode-8.pdf)). VS249 (U+E01E8) through VS256 (U+E01EF), which represent the final eight VSes (*Variation Selectors*), are used for this purpose, and each one uniformly corresponds to one of the eight supported regions, assigned in the order shown above. Thus, this IVD collection includes 643,104 IVSes.
 
