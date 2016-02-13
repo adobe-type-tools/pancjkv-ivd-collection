@@ -1,0 +1,32 @@
+# IVD_Collections
+#
+# History:
+#
+# 201x-xx-xx Combined registration of the PanCJKV collection and of
+#            sequences in that collection (EXPERIMENTAL/UNREGISTERED).
+#
+# 2014-05-16 Combined registration of the Moji_Joho collection and of
+#            sequences in that collection.
+#
+# 2012-03-02 Registration of additional sequences in the Adobe-Japan1
+#            collection. Registration of additional sequences in the
+#            Hanyo-Denshi collection.
+#
+# 2010-11-14 Combined registration of the Hanyo-Denshi collection and of
+#            sequences in that collection.
+#
+# 2007-12-14 Combined registration of the Adobe-Japan1 collection and of
+#            sequences in that collection.
+#
+# This file is part of the Unicode Ideographic Variation Database (IVD).
+# For more details on the IVD, see UTS #37:
+# http://www.unicode.org/reports/tr37/
+#
+# Copyright 2006-2016 Unicode, Inc.
+# For terms of use, see: http://www.unicode.org/terms_of_use.html
+#
+Adobe-Japan1; CID\+[0-9]+; http://www.adobe.com/devnet/font/pdfs/5078.Adobe-Japan1-6.pdf
+Hanyo-Denshi; [A-Z][A-Z][0-9A-F]+S*; http://www.itscj.ipsj.or.jp/domestic/sc02/hanyo-denshi/20100331
+Moji_Joho; MJ[0-9]{6}; http://mojikiban.ipa.go.jp/mjc/1/
+PanCJKV; (uni[0-9A-F]{4}|u[0-9A-F]{5})_(CN|HK|JP|KP|KR|MO|TW|VN); http://www.unicode.org/charts/unihan.html
+# EOF
