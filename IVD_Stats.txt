@@ -3,7 +3,7 @@
 # History:
 #
 # 201x-xx-xx Combined registration of the PanCJKV collection and of
-#            sequences in that collection (EXPERIMENTAL/UNREGISTERED).
+#            sequences in that collection (UNREGISTERED).
 #
 # 2014-05-16 Combined registration of the Moji_Joho collection and of
 #            sequences in that collection.
@@ -34,6 +34,7 @@
 # 3rd Column: Data for the Adobe-Japan1 collection
 # 4th Column: Data for the Hanyo-Denshi collection
 # 5th Column: Data for the Moji_Joho collection
+# 5th Column: Data for the Moji_Joho collection
 # 6th Column: Data for the PanCJKV collection
 #
 # Additional columns will be defined as new collections are added.
@@ -49,7 +50,7 @@
 # For terms of use, see: http://www.unicode.org/terms_of_use.html
 #
 #       TOTAL    Adobe-Japan1   Hanyo-Denshi   Moji_Joho   PanCJKV
-IVS;    671853;  14679;         13045;         10710;      643104
+IVS;    913017;  14679;         13045;         10710;      884268
 BC;     80388;   13307;         5757;          4779;       80388
 VS17;   15107;   13307;         1713;          1017;       0
 VS18;   6219;    1207;          4756;          3753;       0
@@ -83,6 +84,9 @@ VS45;   1;       0;             1;             1;          0
 VS46;   1;       0;             1;             1;          0
 VS47;   1;       0;             1;             0;          0
 VS48;   1;       0;             0;             1;          0
+VS246;  80388;   0;             0;             0;          80388
+VS247;  80388;   0;             0;             0;          80388
+VS248;  80388;   0;             0;             0;          80388
 VS249;  80388;   0;             0;             0;          80388
 VS250;  80388;   0;             0;             0;          80388
 VS251;  80388;   0;             0;             0;          80388
@@ -98,30 +102,32 @@ VS256;  80388;   0;             0;             0;          80388
 5;      0;       2;             56;            33;         0
 6;      0;       2;             21;            11;         0
 7;      0;       0;             11;            7;          0
-8;      65281;   1;             2;             4;          80388
-9;      8888;    0;             5;             1;          0
-10;     908;     0;             0;             0;          0
-11;     650;     0;             1;             1;          0
-12;     1032;    0;             0;             0;          0
-13;     2081;    0;             1;             0;          0
-14;     717;     0;             0;             0;          0
-15;     399;     1;             0;             0;          0
-16;     189;     0;             1;             1;          0
-17;     101;     0;             0;             0;          0
-18;     55;      0;             0;             0;          0
-19;     33;      0;             0;             0;          0
-20;     20;      0;             0;             0;          0
-21;     7;       0;             0;             0;          0
-22;     8;       0;             0;             0;          0
-23;     1;       0;             0;             0;          0
-24;     5;       0;             0;             0;          0
-25;     7;       0;             0;             0;          0
-27;     1;       0;             0;             0;          0
-28;     1;       0;             0;             0;          0
-29;     1;       0;             0;             0;          0
+8;      0;       1;             2;             4;          0
+9;      0;       0;             5;             1;          0
+11;     65281;   0;             1;             1;          80388
+12;     8888;    0;             0;             0;          0
+13;     908;     0;             1;             0;          0
+14;     650;     0;             0;             0;          0
+15;     1032;    1;             0;             0;          0
+16;     2081;    0;             1;             1;          0
+17;     717;     0;             0;             0;          0
+18;     399;     0;             0;             0;          0
+19;     189;     0;             0;             0;          0
+20;     101;     0;             0;             0;          0
+21;     55;      0;             0;             0;          0
+22;     33;      0;             0;             0;          0
+23;     20;      0;             0;             0;          0
+24;     7;       0;             0;             0;          0
+25;     8;       0;             0;             0;          0
+26;     1;       0;             0;             0;          0
+27;     5;       0;             0;             0;          0
+28;     7;       0;             0;             0;          0
 30;     1;       0;             0;             0;          0
-40;     1;       0;             0;             0;          0
-55;     1;       0;             0;             0;          0
+31;     1;       0;             0;             0;          0
+32;     1;       0;             0;             0;          0
+33;     1;       0;             0;             0;          0
+43;     1;       0;             0;             0;          0
+58;     1;       0;             0;             0;          0
 #
 # Duplicate Sequence Identifiers:
 # CID+13651 (Adobe-Japan1: <885E,E0101>, <2B7D8,E0100>)

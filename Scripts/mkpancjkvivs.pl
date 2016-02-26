@@ -2,19 +2,19 @@
 
 # Written by Dr. Ken Lunde (lunde@adobe.com)
 # Senior Computer Scientist 2, Adobe Systems Incorporated
-# Version 2016-02-13
+# Version 2016-02-25
 
 # This tool takes region-specific UTF-32 to CID mapping files as
 # arguments to region identifier command-line options, along with the
 # IVD_Sequences.txt file as STDIN, and outputs a UVS definition file
-# that can be used as the argument for the AFDKO makeotf tool's "-ci"
+# that can be used as the argument to the AFDKO makeotf tool's "-ci"
 # command-line option.
 
 # Tool Dependencies: None
 
 while (@ARGV and $ARGV[0] =~ /^-/) {
     my $arg = shift @ARGV;
-    if (lc $arg =~ /^-(cn|tw|hk|mo|jp|kr|kp|vn)$/) {
+    if (lc $arg =~ /^-(kx|cn|sg|tw|hk|mo|my|jp|kr|kp|vn)$/) {
         $region2file{ uc $1 } = $ARGV[0];
         shift;
     } else {
@@ -27,7 +27,7 @@ while(defined($line = <STDIN>)) {
     next if $line !~ /PanCJKV/;
     chomp $line;
     ($bc,$vs,$id) = $line =~ /^([0-9A-F]+)\s+([0-9A-F]{5});\s+.+;\s+([A-Za-z][A-Za-z0-9_+-]+)$/;
-    ($region) = $id =~ /^(?:uni|u)(?:[0-9A-F]+)_(CN|TW|HK|MO|JP|KR|KP|VN)$/;
+    ($region) = $id =~ /^(?:uni|u)(?:[0-9A-F]+)_(KX|CN|SG|TW|HK|MO|MY|JP|KR|KP|VN)$/;
     $data->{$bc}{$region} = $vs;
 }
 
