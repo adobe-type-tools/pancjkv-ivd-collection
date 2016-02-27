@@ -2,7 +2,7 @@
 
 # Written by Dr. Ken Lunde (lunde@adobe.com)
 # Senior Computer Scientist 2, Adobe Systems Incorporated
-# Version 2016-02-25
+# Version 2016-02-26
 
 # This tool takes region-specific UTF-32 to CID mapping files as
 # arguments to region identifier command-line options, along with the
@@ -14,7 +14,7 @@
 
 while (@ARGV and $ARGV[0] =~ /^-/) {
     my $arg = shift @ARGV;
-    if (lc $arg =~ /^-(kx|cn|sg|tw|hk|mo|my|jp|kr|kp|vn)$/) {
+    if (lc $arg =~ /^-(xk|cn|sg|tw|hk|mo|my|jp|kr|kp|vn)$/) {
         $region2file{ uc $1 } = $ARGV[0];
         shift;
     } else {
@@ -27,7 +27,7 @@ while(defined($line = <STDIN>)) {
     next if $line !~ /PanCJKV/;
     chomp $line;
     ($bc,$vs,$id) = $line =~ /^([0-9A-F]+)\s+([0-9A-F]{5});\s+.+;\s+([A-Za-z][A-Za-z0-9_+-]+)$/;
-    ($region) = $id =~ /^(?:uni|u)(?:[0-9A-F]+)_(KX|CN|SG|TW|HK|MO|MY|JP|KR|KP|VN)$/;
+    ($region) = $id =~ /^(?:uni|u)(?:[0-9A-F]+)_(XK|CN|SG|TW|HK|MO|MY|JP|KR|KP|VN)$/;
     $data->{$bc}{$region} = $vs;
 }
 
@@ -48,8 +48,12 @@ foreach $region (sort {$a cmp $b} keys %region2file) {
     }
 }
 
+print STDOUT "# PanCJKV IVSes\n";
+
 foreach $bc (sort {length($a) <=> length($b) or $a cmp $b} keys %{ $new }) {
     foreach $vs (sort {$a cmp $b} keys %{ $new->{$bc} }) {
         print STDOUT "$bc $vs; PanCJKV; $new->{$bc}{$vs}\n";
     }
 }
+
+print STDOUT "# EOF\n";

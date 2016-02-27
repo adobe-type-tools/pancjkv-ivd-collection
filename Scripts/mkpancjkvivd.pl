@@ -10,7 +10,7 @@
 # Tool Dependencies: None
 
 %region2vs = (
-    "KX" => "E01EF",
+    "XK" => "E01EF",
     "CN" => "E01EE",
     "SG" => "E01ED",
     "TW" => "E01EC",

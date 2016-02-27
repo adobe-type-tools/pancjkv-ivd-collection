@@ -28,5 +28,5 @@
 Adobe-Japan1; CID\+[0-9]+; http://www.adobe.com/devnet/font/pdfs/5078.Adobe-Japan1-6.pdf
 Hanyo-Denshi; [A-Z][A-Z][0-9A-F]+S*; http://www.itscj.ipsj.or.jp/domestic/sc02/hanyo-denshi/20100331
 Moji_Joho; MJ[0-9]{6}; http://mojikiban.ipa.go.jp/mjc/1/
-PanCJKV; (uni[0-9A-F]{4}|u[0-9A-F]{5})_(CN|HK|JP|KP|KR|KX|MO|MY|SG|TW|VN); https://github.com/adobe-type-tools/pancjkv-ivd-collection/
+PanCJKV; (uni[0-9A-F]{4}|u[0-9A-F]{5})_(CN|HK|JP|KP|KR|MO|MY|SG|TW|VN|XK); https://github.com/adobe-type-tools/pancjkv-ivd-collection/
 # EOF
