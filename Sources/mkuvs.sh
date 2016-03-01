@@ -1,0 +1,3 @@
+perl ../Scripts/mkpancjkvivs.pl -cn ../Resources/utf32-cn.map -tw ../Resources/utf32-tw.map -jp ../Resources/utf32-jp.map -kr ../Resources/utf32-kr.map < ../IVD_Sequences.txt > SourceHanSansR04_CN_sequences.txt
+
+perl ../Scripts/mkpancjkvivs.pl -xk ../Resources/utf32-kr.map -cn ../Resources/utf32-cn.map -sg ../Resources/utf32-cn.map -tw ../Resources/utf32-tw.map -hk ../Resources/utf32-tw.map -mo ../Resources/utf32-tw.map -my ../Resources/utf32-cn.map -jp ../Resources/utf32-jp.map -kr ../Resources/utf32-kr.map -kp ../Resources/utf32-kr.map -vn ../Resources/utf32-tw.map < ../IVD_Sequences.txt > SourceHanSansR11_CN_sequences.txt

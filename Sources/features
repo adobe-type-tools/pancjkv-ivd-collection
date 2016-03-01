@@ -24,7 +24,7 @@ table hhea {
 } hhea;
 
 table name {
-  nameid 0 "Copyright \00A9 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.";
+  nameid 0 "Copyright \00A9 2014-2016 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.";
   nameid 7 "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.";
   nameid 8 "Adobe Systems Incorporated";
   nameid 9 "Ryoko NISHIZUKA \897f\585a\6dbc\5b50 (kana & ideographs); Paul D. Hunt (Latin, Greek & Cyrillic); Wenlong ZHANG \5F20\6587\9F99 (bopomofo); Sandoll Communication \C0B0\B3CC\CEE4\BBA4\B2C8\CF00\C774\C158, Soo-young JANG \C7A5\C218\C601 & Joo-yeon KANG \AC15\C8FC\C5F0 (hangul elements, letters & syllables)";

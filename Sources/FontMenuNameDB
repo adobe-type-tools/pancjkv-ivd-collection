@@ -1,7 +1,15 @@
-[SourceHanSansPanCJKV-Regular]
-	f=3,1,0x804,\601D\6E90\9ED1\4F53 PanCJKV
-	s=3,1,0x804,R
-	l=3,1,0x804,\601D\6E90\9ED1\4F53 PanCJKV R
-	f=Source Han Sans PanCJKV
-	s=R
-	l=Source Han Sans PanCJKV R
+[SourceHanSansR04-Regular]
+	f=3,1,0x804,\601D\6E90\9ED1\4F53 R04
+	s=3,1,0x804,Regular
+	l=3,1,0x804,\601D\6E90\9ED1\4F53 R04 Regular
+	f=Source Han Sans R04
+	s=Regular
+	l=Source Han Sans R04 Regular
+
+[SourceHanSansR11-Regular]
+	f=3,1,0x804,\601D\6E90\9ED1\4F53 R11
+	s=3,1,0x804,Regular
+	l=3,1,0x804,\601D\6E90\9ED1\4F53 R11 Regular
+	f=Source Han Sans R11
+	s=Regular
+	l=Source Han Sans R11 Regular
