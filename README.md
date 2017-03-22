@@ -26,4 +26,4 @@ All necessary files for building the example OpenType/CFF font are in the *Sourc
 
 ## Getting Involved
 
-Send any feedback to the PanCJKV IVD Collection project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub] PanCJKV IVD Collection), for consideration.
+Send any feedback to the PanCJKV IVD Collection project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub]%20PanCJKV%20IVD%20Collection), for consideration.
